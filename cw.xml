@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="cw.css"?>
+<codeashop xsi:noNamespaceSchemaLocation="cw.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <nav_bar>
+            <home>Home</home>
+            <sign_up>Sign up</sign_up>
+            <register>Register</register>
+            <login>Login</login>
+        </nav_bar>
+        <title>
+    Welcome to codeashop
+        </title>
+        <store>
+            <store_info branch="Head Office">
+                <img/>
+                <Name>Name:Codeashop</Name>
+                <phone_info>
+                    <landline_number>Landline:014312979</landline_number>
+                </phone_info>
+                <email>Email:pranishmndr01@gmail.com</email>
+                <website>Website:www.CODEASHOP.com</website>
+                <location>Location:London</location>
+                <about_us>About us:Codashop is a Virtual Giftcard Marketplace, where consumers buy, sell, earn and redeem Gift Cards, providing you a secure, transparent and safe options with complete transaction records, every time.</about_us>
+                <logo/>
+            </store_info>
+            <store_info branch="Branch office">
+                <img/>
+                <Name>Name:Codeashop Branch</Name>
+                <phone_info>
+                    <mobile_number cell="primary">Primary number:9861244270</mobile_number>
+                    <mobile_number cell="secondary">Secondary number:9851004063</mobile_number>
+                </phone_info>
+            </store_info>
+        </store>
+        <gift_card>
+            <type form="physical">
+                <heading>Physical Gift Cards</heading>
+                <steam_giftcard>
+                    <cost price="10">
+                        <stimg/>
+                        <giftcard_name>Name:10 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:10</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:5</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                    <cost price="20">
+                        <stimg/>
+                        <giftcard_name>Name:20 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:20</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:2</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                    <cost price="30">
+                        <stimg/>
+                        <giftcard_name>Name:30 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:10</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:1</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                    <cost price="40">
+                        <stimg/>
+                        <giftcard_name>Name:40 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:40</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:8</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                </steam_giftcard>
+                <itunes_giftcard>
+                    <itimg/>
+                    <cost price="10">
+                        <itimg/>
+                        <giftcard_name>Name:10 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:10</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:4</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                    <cost price="20">
+                        <itimg/>
+                        <giftcard_name>Name:20 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:20</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:7</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                    <cost price="30">
+                        <itimg/>
+                        <giftcard_name>Name:30 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:30</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:8</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                    <cost price="40">
+                        <itimg/>
+                        <giftcard_name>Name:40 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:40</price>
+                        <type>type:Physical</type>
+                        <validity>Validity:1 year</validity>
+                        <inventory>Stock:5</inventory>
+                        <delivery>Delivery:Can be delivered all over UK only</delivery>
+                    </cost>
+                </itunes_giftcard>
+            </type>
+            <type form="digital">
+                <heading>Digital Gift Cards</heading>
+                <steam_giftcard>
+                    <cost price="10">
+                        <stimg/>
+                        <giftcard_name>Name:10 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:10</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid In:In UK and Wales  only</valid_in>
+                    </cost>
+                    <cost price="20">
+                        <stimg/>
+                        <giftcard_name>Name:20 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:20</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid In:In UK and Wales  only</valid_in>
+                    </cost>
+                    <cost price="30">
+                        <stimg/>
+                        <giftcard_name>Name:30 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:30</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid In:In UK and Wales  only</valid_in>
+                    </cost>
+                    <cost price="40">
+                        <stimg/>
+                        <giftcard_name>Name:40 &#36; Steam Gift Card</giftcard_name>
+                        <description>Description:A Steam card is a gift card that can be redeemed through Steam for credit. Credit from Steam cards can be used to buy games.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:40</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid In:In UK and Wales  only</valid_in>
+                    </cost>
+                </steam_giftcard>
+                <itunes_giftcard>
+                    <cost price="10">
+                        <itimg/>
+                        <giftcard_name>Name:10 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:10</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid in:In UK and Wales  only</valid_in>
+                    </cost>
+                    <cost price="20">
+                        <itimg/>
+                        <giftcard_name>Name:20 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:20</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid in:In UK and Wales  only</valid_in>
+                    </cost>
+                    <cost price="30">
+                        <itimg/>
+                        <giftcard_name>Name:30 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:30</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid in:In UK and Wales  only</valid_in>
+                    </cost>
+                    <cost price="40">
+                        <itimg/>
+                        <giftcard_name>Name:30 &#36; Itunes Gift Card</giftcard_name>
+                        <description>Description:A Itunes card is a gift card that can be redeemed through apple store for credit. Credit from Itunes cards can be used to buy music.</description>
+                        <currency>Currency:Dollars</currency>
+                        <price>Price:30</price>
+                        <type>type:Digital</type>
+                        <validity>Validity:1 year</validity>
+                        <valid_in>Valid in:In UK and Wales  only</valid_in>
+                    </cost>
+                </itunes_giftcard>
+            </type>
+        </gift_card>
+        <social>
+            <footer id="1895">
+                <conn>Connect with us:</conn>
+                <fbimg/>
+                <instaimg/>
+            </footer>
+            <footer id="2">
+                <payment mode="ewallet">
+                    <conn>Payment Methods:</conn>
+                    <esimg/>
+                    <khimg/>
+                </payment>
+                <payment mode="card">
+                    <visaimg/>
+                    <masterimg/>
+                </payment>
+            </footer>
+        </social>
+    </codeashop>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="codeashop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nav_bar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="home"/>
+              <xs:element type="xs:string" name="sign_up"/>
+              <xs:element type="xs:string" name="register"/>
+              <xs:element type="xs:string" name="login"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="title"/>
+        <xs:element name="store">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="store_info" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="img"/>
+                    <xs:element type="xs:string" name="Name"/>
+                    <xs:element name="phone_info">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="landline_number" minOccurs="0"/>
+                          <xs:element name="mobile_number" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="cell" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="email" minOccurs="0"/>
+                    <xs:element type="xs:string" name="website" minOccurs="0"/>
+                    <xs:element type="xs:string" name="location" minOccurs="0"/>
+                    <xs:element type="xs:string" name="about_us" minOccurs="0"/>
+                    <xs:element type="xs:string" name="logo" minOccurs="0"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="branch" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="gift_card">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="type" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="heading"/>
+                    <xs:element name="steam_giftcard">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="cost" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="stimg"/>
+                                <xs:element type="xs:string" name="giftcard_name"/>
+                                <xs:element type="xs:string" name="description"/>
+                                <xs:element type="xs:string" name="currency"/>
+                                <xs:element type="xs:string" name="price"/>
+                                <xs:element type="xs:string" name="type"/>
+                                <xs:element type="xs:string" name="validity"/>
+                                <xs:element type="xs:string" name="inventory" minOccurs="0"/>
+                                <xs:element type="xs:string" name="delivery" minOccurs="0"/>
+                                <xs:element type="xs:string" name="valid_in" minOccurs="0"/>
+                              </xs:sequence>
+                              <xs:attribute type="xs:byte" name="price" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="itunes_giftcard">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="itimg" minOccurs="0"/>
+                          <xs:element name="cost" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="itimg"/>
+                                <xs:element type="xs:string" name="giftcard_name"/>
+                                <xs:element type="xs:string" name="description"/>
+                                <xs:element type="xs:string" name="currency"/>
+                                <xs:element type="xs:string" name="price"/>
+                                <xs:element type="xs:string" name="type"/>
+                                <xs:element type="xs:string" name="validity"/>
+                                <xs:element type="xs:string" name="inventory" minOccurs="0"/>
+                                <xs:element type="xs:string" name="delivery" minOccurs="0"/>
+                                <xs:element type="xs:string" name="valid_in" minOccurs="0"/>
+                              </xs:sequence>
+                              <xs:attribute type="xs:byte" name="price" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="form" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="social">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="footer" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="conn" minOccurs="0"/>
+                    <xs:element type="xs:string" name="fbimg" minOccurs="0"/>
+                    <xs:element type="xs:string" name="instaimg" minOccurs="0"/>
+                    <xs:element name="payment" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="conn" minOccurs="0"/>
+                          <xs:element type="xs:string" name="esimg" minOccurs="0"/>
+                          <xs:element type="xs:string" name="khimg" minOccurs="0"/>
+                          <xs:element type="xs:string" name="visaimg" minOccurs="0"/>
+                          <xs:element type="xs:string" name="masterimg" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="mode" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:short" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
